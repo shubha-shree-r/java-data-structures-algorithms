@@ -13,7 +13,7 @@ public class BubbleSort {
                 }
 
             }
-
+            System.out.println();
         }
         return Arrays.toString(intArray);
     }
