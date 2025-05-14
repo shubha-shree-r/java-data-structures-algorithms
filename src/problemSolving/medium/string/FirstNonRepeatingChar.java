@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class FirstNonRepeatingChar {
-    static char finFirstNonRepeating(String word){
+    static char findFirstNonRepeating(String word){
         Map<Character,Integer> charCount = new LinkedHashMap<>();
 
 
@@ -23,7 +23,7 @@ public class FirstNonRepeatingChar {
 
     public static void main(String[] args) {
         String word = "testmediums";
-        char firstNonRepeating = finFirstNonRepeating(word);
+        char firstNonRepeating = findFirstNonRepeating(word);
 
         if (firstNonRepeating != '\0') {
             System.out.println("Repeated : " + firstNonRepeating);
