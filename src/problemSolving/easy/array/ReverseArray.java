@@ -27,3 +27,15 @@ public class ReverseArray {
             System.out.print(arr[i] + " ");
     }
 }
+
+//two pointer:
+//
+//
+//   int left = 0;
+//int right = arr.length-1;
+//
+//while(left < right){
+//    int temp = arr[left];
+//    arr[left] = arr[right];
+//    arr[right] = temp;
+//        }
