@@ -1,4 +1,4 @@
-package leetCodeProblems.arraysAndStrings;
+package src.leetCodeProblems.arraysAndStrings;
 
 //leetcode -01
 
